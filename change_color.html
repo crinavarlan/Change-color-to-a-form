@@ -1,0 +1,18 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<title>Colored form </title>
+</head>
+<body>
+   <p>|Try to change the value of the input filed. You can put just name of colors!</p>
+
+   <div ng-app="" ng-init="col ='green'">
+   <input style="background-color: {{col}}" ng-model="col" value="{{col}}">
+   </div>
+   
+   <p>The background color of the input box will be whatever you write in the input field.</p>
+
+</body>
+</html>
